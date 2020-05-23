@@ -1,7 +1,7 @@
 function W = generate_JointMatrix(A,B,n_perc)
 
-fc_mat_1 = corr(A');
-fc_mat_2 = corr(B');
+fc_mat_1 = A;
+fc_mat_2 = B;
 
 % keep only positive values
 fc_mat_1 = fc_mat_1 .* (fc_mat_1 > 0);

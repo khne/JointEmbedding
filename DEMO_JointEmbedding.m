@@ -75,7 +75,7 @@ plot(embed_template.template(:,1),embed_template.template(:,2),'k.')
 plot(embed_TA.individual_to_template(:,1),embed_TA.individual_to_template(:,2),'.')
 plot(embed_TB.individual_to_template(:,1),embed_TB.individual_to_template(:,2),'.')
 xlabel('Component 1'); ylabel('Component 2'); zlabel('Component 3');
-legend({'REFERENCE','DATA-A','DATA-B'},'location','northwest')
+legend({'REFERENCE','DATA-A','DATA-B'},'location','best')
 legend boxoff
 title('JOINT EMBEDDING')
 
@@ -84,7 +84,7 @@ plot(embed_template.template(:,1),embed_template.template(:,2),'k.')
 plot(embed_A.individual_to_template(:,1),embed_A.individual_to_template(:,2),'.')
 plot(embed_B.individual_to_template(:,1),embed_B.individual_to_template(:,2),'.')
 xlabel('Component 1'); ylabel('Component 2'); zlabel('Component 3');
-legend({'REFERENCE','DATA-A','DATA-B'},'location','northwest')
+legend({'REFERENCE','DATA-A','DATA-B'},'location','best')
 legend boxoff
 title('INDIVIDUAL EMBEDDING')
 

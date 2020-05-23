@@ -1,6 +1,6 @@
 function W = generate_SingleMatrix(A,n_perc)
 
-fc_mat = corr(A');
+fc_mat = A;
 
 % keep only positive values
 fc_mat = fc_mat .* (fc_mat > 0);
